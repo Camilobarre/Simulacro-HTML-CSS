@@ -1,1 +1,112 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+:root {
+    --blanco: #FFFFFF;
+    --verde-bosque: #1A5126;
+    --verde-claro: #8FBF5F;
+    --azul-claro: #5CB3FF;
+    --beige: #F3E9DC;
+    --marron-tierra: #B18F6A;
+}
+
+.header {
+    background-color: var(--verde-bosque);
+    color: var(--blanco);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.nav {
+    align-items: center;
+    display: flex;
+}
+
+.nav a {
+    color: var(--blanco);
+    text-decoration: none;
+    padding: 20px;
+}
+
+.explorar {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-image: url(../img/imagen1.webp);
+    color: var(--blanco);
+}
+
+#arvi {
+    background-color: var(--beige);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    padding: 2%;
+    height: 650px;
+}
+
+.titulos {
+    color: var(--verde-bosque);
+}
+
+#jardin {
+    background-color: var(--beige);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    padding: 2%;
+}
+
+#normas {
+    background-color: var(--beige);
+    color: var(--verde-bosque);
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.footer {
+    background-color: var(--verde-bosque);
+    color: var(--blanco);
+    padding: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 70px;
+}
+
+.imagenescontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.normas {
+    background-color: var(--verde-claro);
+    color: var(--blanco);
+    width: 600px;
+    margin: 5px;
+    border-radius: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.textcontainer {
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+}
